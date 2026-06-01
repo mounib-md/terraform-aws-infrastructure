@@ -63,7 +63,7 @@ resource "aws_security_group" "web" {
   }
 
   tags = {
-    name   = "web-sg"
+    name = "web-sg"
   }
 }
 resource "aws_instance" "web" {
